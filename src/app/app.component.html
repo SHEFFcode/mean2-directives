@@ -1,3 +1,8 @@
-<h1>
-  {{title}}
-</h1>
+<h1>Attribute Directives</h1>
+<h2>ngClass and ngStyle</h2>
+<p>Control class representation with ngClass</p>
+<div [ngClass]="{ border: true, background: false }"></div>
+<p>Now same thing with class attribute</p>
+<div [class.border]="true"></div>
+<p>Set custom inline styles with ngStyle</p>
+<div [ngStyle]="{ 'background-color': 'red' }"></div>
