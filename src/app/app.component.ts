@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
 import {Highlight} from "./highlight.directive";
+import {Unless} from "./unless.directive";
 
 @Component({
   moduleId: module.id,
   selector: 'js-root',
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.css'],
-  directives: [Highlight]
+  directives: [Highlight, Unless]
 })
 export class AppComponent {
   private switch = true;
