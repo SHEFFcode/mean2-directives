@@ -10,6 +10,7 @@ import {Unless} from "./unless.directive";
   directives: [Highlight, Unless]
 })
 export class AppComponent {
+  //comment
   private switch = true;
   private items = [1, 2, 3, 4, 5];
   private value = 100; // change this value to trigger the other switch value on render
